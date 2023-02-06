@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="133.43483">
+<testcase classname="" name="_2" time="24.170385">
+<system-out><![CDATA[Given User gave to enter facebook login through chrome broswer..............passed
+And User have to click forgotten password...................................passed
+When User have to enter email or phoneno....................................passed
+Then User have to click the search button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="17.497023">
+<system-out><![CDATA[Given User gave to enter facebook login through chrome broswer..............passed
+When User enter  "java123@gmail.com" and "java123"..........................passed
+And User click the login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_3" time="34.072117">
+<system-out><![CDATA[Given User gave to enter facebook login through chrome broswer..............passed
+When User enter  "selenium123@gmail.com" and "selenium123"..................passed
+And User click the login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_4" time="28.453053">
+<system-out><![CDATA[Given User gave to enter facebook login through chrome broswer..............passed
+When User enter  "python123@gmail.com" and "python123"......................passed
+And User click the login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_5" time="29.242252">
+<system-out><![CDATA[Given User gave to enter facebook login through chrome broswer..............passed
+When User enter  "jira123@gmail.com" and "jira123"..........................passed
+And User click the login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

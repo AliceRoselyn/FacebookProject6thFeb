@@ -1,0 +1,359 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T15:59:16.373Z",
+        "line": 4,
+        "name": "",
+        "description": "To validate forgotten password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17661406700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gave to enter facebook login through chrome broswer",
+            "match": {
+              "location": "StepDefinition.user_gave_to_enter_facebook_login_through_chrome_broswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5780695000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to click forgotten password",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_forgotten_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281302500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to enter email or phoneno",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_phoneno()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190686000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to click the search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate forgotten password functionality of facebook application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/Forgotten.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T15:59:40.603Z",
+        "line": 14,
+        "name": "",
+        "description": "  To validate Login using different credentials",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4729759200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gave to enter facebook login through chrome broswer",
+            "match": {
+              "location": "StepDefinition.user_gave_to_enter_facebook_login_through_chrome_broswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 595688000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter  \"java123@gmail.com\" and \"java123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java123@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"java123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250352000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11879049400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-02T15:59:58.101Z",
+        "line": 15,
+        "name": "",
+        "description": "  To validate Login using different credentials",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24212524600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gave to enter facebook login through chrome broswer",
+            "match": {
+              "location": "StepDefinition.user_gave_to_enter_facebook_login_through_chrome_broswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 634576100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter  \"selenium123@gmail.com\" and \"selenium123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium123@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"selenium123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176675800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9042981500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-02T16:00:32.175Z",
+        "line": 16,
+        "name": "",
+        "description": "  To validate Login using different credentials",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22527298200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gave to enter facebook login through chrome broswer",
+            "match": {
+              "location": "StepDefinition.user_gave_to_enter_facebook_login_through_chrome_broswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 506367300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter  \"python123@gmail.com\" and \"python123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"python123@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"python123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165947000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5248015800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-02T16:01:00.629Z",
+        "line": 17,
+        "name": "",
+        "description": "  To validate Login using different credentials",
+        "id": ";;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22545618400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gave to enter facebook login through chrome broswer",
+            "match": {
+              "location": "StepDefinition.user_gave_to_enter_facebook_login_through_chrome_broswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 464951600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter  \"jira123@gmail.com\" and \"jira123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jira123@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"jira123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162524600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6062977700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate Login Functionality of Facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/Login.feature",
+    "tags": []
+  }
+]
