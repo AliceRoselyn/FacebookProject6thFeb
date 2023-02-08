@@ -56,7 +56,7 @@ public static void performMovetoElement(WebElement element) {
 public static void performDragAndDrop(WebElement src,WebElement dest) {
 	a.dragAndDrop(src, dest);
 	System.out.println("hello");
-  	
+  	a.click();
 
 }
 }
